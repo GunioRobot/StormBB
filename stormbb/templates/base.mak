@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-	
+
 	<title>${self.title()} - Tempest Forums</title>
-	
+
 	<!-- The framework -->
 	<link rel="stylesheet" href="/static/css/inuit.css" />
 	<link rel="stylesheet" href="/static/css/breadcrumb.inuit.css" />
-	
+
 	<style>
 		.hidden {
 			display: none;
@@ -29,15 +29,15 @@
 			margin: 0 auto;
 		}
 	</style>
-</head> 
+</head>
 </head>
 <body>
 <div class="headbar">This is currently read only. To talk to real people,
 <a href="http://convore.com/tempest/">head over to Convore</a>.</div>
-	
+
 	<!-- YOU CAN START WORKING IN THIS FILE RIGHT AWAY, JUST EDIT BELOW -->
 	<div class="grids wrap">
-	
+
 		<div id="side" class="grid-4">
 			<h1><a href="/">Tempest PA</a></h1>
 			% if USER_ID:
@@ -53,12 +53,12 @@
 			% endif
 		</div>
 		<div id="page" class="grid-12">
-			
+
 			${next.body()}
-			
+
 		</div>
 	</div>
-	
+
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js">
 </script>
